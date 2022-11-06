@@ -1,0 +1,165 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+    color: orangered;
+}
+
+.shop-item-title {
+    text-align: center;
+    font-weight: 1200;
+    color: green;
+}
+
+.one-piece, .Bleach, .naruto, .attack-titans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.shop-item {
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.shop-item-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.shop-item-button {
+    background-color: #56CCF2;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.shop-item-image {
+    width: 250px;
+    height: 300px;
+}
+
+.shop-item-price {
+    font-weight: 800;
+    color: blueviolet;
+}
+
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    width: 800px;
+}
+
+.cart-item {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.cart-prices {
+    width: 25%;
+}
+.cart-price {
+    width: 25%;
+    font-weight: 700;
+    color: violet;
+}
+
+.cart-quantity {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-button {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.cart-quantity button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+}
+
+.cart-total-title {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.cart-total-price {
+    font-size: large;
+    font-weight: 900;
+    color: palevioletred;
+}
+
+.cart-purchase {
+    margin: 20px 0;
+}
+
+.cart-purchase button{
+    background-color: #32CD32;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.cart-purchase button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+.cart-quantity button:hover{
+    background-color:#B22222;
+    cursor: pointer;
+
+}
+
+.shop-item-details button:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
